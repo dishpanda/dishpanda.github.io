@@ -75,7 +75,7 @@ article {
     padding: 60px;
 }
 article::before {
-    content: '\2601';
+    content: '\2638';
     position: relative;
     top: 0;
     left: -30px;
