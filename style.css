@@ -1,5 +1,10 @@
+@font-face {
+    font-family: SF-Pro;
+    src: url(SF-Pro-Text-Regular.otf);
+}
+
 body {
-    font-family: Montserrat, Helvetica Neue, sans-serif;
+    font-family: SF-Pro;
     margin: 0 auto;
     line-height: 2em;
     padding: 12px;
@@ -52,7 +57,7 @@ p {
     font-size: 20px;
 }
 .name {
-    font-family: Montserrat;
+    font-family: SF-Pro;
     font-size: 45px;
     text-transform: uppercase;
     font-weight: 900;
@@ -72,7 +77,8 @@ p {
     overflow: auto;
 }
 article {
-    padding: 60px;
+    padding: 60px 60px 60px 60px;
+    margin: 10px 0;
 }
 article::before {
     content: '\2638';
@@ -85,36 +91,88 @@ article::before {
 hr {
     border-bottom: 3px solid #946B2D;
 }
-.meta {
-    text-transform: uppercase;
-    font-family: Arial, Courier New, Source Sans Pro, sans-serif;
-    font-size: 10px;
-    letter-spacing: .15em;
+
+/*navigation*/ 
+
+#primary_nav {
+    position: fixed;
+    bottom: 40px;
+    left: 0;
+    right: 0;
 }
-.meta a:hover {
-    color: #6B94D2;
-}
-.inline-list {
+
+#primary_nav ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    background: transparent;
+    padding: 5px 0;
 }
-.inline-list li {
-    display: inline-block;
+ 
+#primary_nav li a {
+    display: block;
+    padding: 0 20px;
+    color: none;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    height: 2em;
+    border-bottom: 1px solid #383838;
 }
-footer .inline-list li {
-    margin-right: 40px;
-}
-footer a {
-    border: none;
+
+#primary_nav li a:hover,
+#primary_nav li a:focus {
     color: #946B2D;
+    background: #ccc;
 }
+ 
+/*footer*/
+ 
 footer {
-    margin: 0 auto;
-    position: absolute;
-    bottom: 55%;
-    right: -255px;
-    padding: 40px 0 0 0;
-    width: 600px;
-    -webkit-transform: rotate(-90deg);
+    position: fixed;
+    bottom: 0;
+    font-family: 'SF-Pro';
+    text-align: center;
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+ 
+    a.to_nav {
+        display: none;
+    }
+     
+    .wrapper {
+        position: relative;
+        width: 768px;
+        margin: auto;
+    }
+     
+    #primary_nav {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        background: none;
+    }
+     
+    #primary_nav li {
+        display: inline;
+    }
+     
+    #primary_nav li a {
+        float: left;
+        border: none;
+        padding: 0 10px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+    }
+
+    #primary_nav li.top {
+    display: none;
+    }
 }
