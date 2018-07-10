@@ -20,15 +20,11 @@ body{
 
 table {
     width: 100%;
-    color:black;
+    color:white;
 }
 
 td {
     text-align: center
-}
-
-footer{
-    padding: 2px 16px;
 }
 
 a.fa-twitter:hover {
