@@ -27,6 +27,10 @@ td {
     text-align: center
 }
 
+a.fa-file:hover {
+    color: #aaf0d1;
+}
+
 a.fa-twitter:hover {
     color: #00aced;
 }
@@ -42,6 +46,19 @@ a.fa-github:hover {
 a.fa-envelope:hover {
     color: #dd4b39;
 }
+
+::-webkit-input-placeholder {
+    font-style: italic;
+ }
+ :-moz-placeholder {
+    font-style: italic;  
+ }
+ ::-moz-placeholder {
+    font-style: italic;  
+ }
+ :-ms-input-placeholder {  
+    font-style: italic; 
+ }
 
 iframe{
     width: 90%;
