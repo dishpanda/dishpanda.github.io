@@ -1,18 +1,19 @@
+@font-face {
+    font-family: HiraginoKakuGothicProW6;
+    src: url("Hiragino Kaku Gothic Pro W6.otf") format("opentype");
+}
+
 html{
     height: 100%;
-    background-image: linear-gradient(155deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); 
+    background:#0e2340;
     color: white;
-    font-family: Helvetica, sans-serif;
+    font-family: HiraginoKakuGothicProW6, sans-serif;
 }
 
-.blog {
-    background: #fff;
-    color: #000;
-}
-
-.blog.dark {
-    background: #000;
-    color: #fff;
+p.name{
+    display: inline;
+    font-size: 4em;
+    font-weight: bolder;
 }
 
 a{
@@ -26,35 +27,6 @@ img {
 
 body{
     padding:0 5% 0 5%
-}
-
-table {
-    width: 100%;
-    color:white;
-}
-
-input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 3px solid rgba(255, 255, 255, 0);
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: none;
-
-    background-image: url('searchicon.png');
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding-left: 40px;
-}
-
-input[type=text]:focus {
-    border: 3px solid #555;
-}
-
-td {
-    text-align: center
 }
 
 a.fa-file:hover {
@@ -90,17 +62,15 @@ a.fa-envelope:hover {
     font-style: italic; 
  }
 
-iframe{
-    width: 90%;
-    height: 50%;
-    padding:0 5% 0 5%;
-    background-image: linear-gradient(155deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); 
-}
-
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     body{
-        padding:0 25% 0 25%
+        padding:0 20% 0 20%
+    }
+    p.name{
+        display: inline;
+        font-size: 2em;
+        font-weight: bolder;
     }
 }
 
@@ -116,22 +86,4 @@ iframe{
     body{
         padding:0 25% 0 25%
     }
-}
-
-.card {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    background-color: #FFFFFF;
-    color: #000000;
-}
-
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-/* Add some padding inside the card container */
-.container {
-    padding: 2px 16px;
 }
