@@ -1,0 +1,89 @@
+@font-face {
+    font-family: HiraginoKakuGothicProW6;
+    src: url("Hiragino Kaku Gothic Pro W6.otf") format("opentype");
+}
+
+html{
+    height: 100%;
+    background:#0e2340;
+    color: white;
+    font-family: HiraginoKakuGothicProW6, sans-serif;
+}
+
+p.name{
+    display: inline;
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+a{
+    color: white; 
+    text-decoration: none;
+}
+
+img {
+    border-radius: 50%;
+}
+
+body{
+    padding:0 5% 0 5%
+}
+
+a.fa-file:hover {
+    color: #aaf0d1;
+}
+
+a.fa-twitter:hover {
+    color: #00aced;
+}
+
+a.fa-instagram:hover {
+    color: #bc2a8d;
+}
+
+a.fa-github:hover {
+    color: #6e5494;
+}
+
+a.fa-envelope:hover {
+    color: #dd4b39;
+}
+
+::-webkit-input-placeholder {
+    font-style: italic;
+ }
+ :-moz-placeholder {
+    font-style: italic;  
+ }
+ ::-moz-placeholder {
+    font-style: italic;  
+ }
+ :-ms-input-placeholder {  
+    font-style: italic; 
+ }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+        padding:0 20% 0 20%
+    }
+    p.name{
+        display: inline;
+        font-size: 2em;
+        font-weight: bolder;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+        padding:0 25% 0 25%
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body{
+        padding:0 25% 0 25%
+    }
+}
