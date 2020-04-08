@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rahul deshpande</title>
+    <link>https://dishpanda.github.io/</link>
+    <description>Recent content on rahul deshpande</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Feb 2018 13:42:49 -0500</lastBuildDate>
+    
+	<atom:link href="https://dishpanda.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://dishpanda.github.io/about/</link>
+      <pubDate>Tue, 13 Feb 2018 13:42:49 -0500</pubDate>
+      
+      <guid>https://dishpanda.github.io/about/</guid>
+      <description>Hey! I&amp;rsquo;m Rahul. Currently, I&amp;rsquo;m a senior at California High School, San Ramon. I&amp;rsquo;ll be a freshman at Cal Poly SLO this fall.
+I&amp;rsquo;m fascinated by mathematics, computer science, robotics, and the connections between the three.
+When I&amp;rsquo;m not using a computer, I like to write poetry, learn foreign languages, shoot photos on film, and play the Indian classical flute––the bansuri. At a party, you&amp;rsquo;ll find me talking to anyone who&amp;rsquo;ll lend an ear.</description>
+    </item>
+    
+    <item>
+      <title>Further Comments: A pleasure to teach [POEM]</title>
+      <link>https://dishpanda.github.io/posts/furthercomments/</link>
+      <pubDate>Thu, 01 Feb 2018 12:35:11 -0500</pubDate>
+      
+      <guid>https://dishpanda.github.io/posts/furthercomments/</guid>
+      <description>A pleasure to teach
+reads my report card every year
+a smiley face, as if this is favorable
+A pleasure to teach
+means validation from mama and baba
+A pleasure to teach
+means my anxiety is invalid
+because “you did so well in school!”
+A pleasure to teach
+tells me i’m not fun
+A pleasure to teach
+means i shouldn’t try
+A pleasure to teach
+tells me i’m not smart</description>
+    </item>
+    
+  </channel>
+</rss>
