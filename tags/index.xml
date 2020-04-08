@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on rahul deshpande</title>
+    <link>https://dishpanda.github.io/tags/</link>
+    <description>Recent content in Tags on rahul deshpande</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Feb 2018 12:35:11 -0500</lastBuildDate>
+    
+	<atom:link href="https://dishpanda.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>poetry</title>
+      <link>https://dishpanda.github.io/tags/poetry/</link>
+      <pubDate>Thu, 01 Feb 2018 12:35:11 -0500</pubDate>
+      
+      <guid>https://dishpanda.github.io/tags/poetry/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
