@@ -1,14 +1,35 @@
+/* for instances where the screen is smaller than 600px (default) */
 p {
   font-size: medium;
 }
-
 
 .window-container {
   width: 90vw;
 }
 
+.site-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #39424e;
+}
+
+.window-container p {
+  font-size: large;
+}
+
+/* for instances where the screen is larger than 600px */
 @media only screen and (min-width: 600px) {
   .window-container {
     width: 66vw;
+  }
+
+  .window-container p {
+    font-size: medium;
+  }
+
+  .window {
+    height: auto;
   }
 }
