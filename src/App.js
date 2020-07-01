@@ -51,9 +51,6 @@ function App() {
               <a href="mailto:rahulsachindeshpande@gmail.com">
                 <button>Email</button>
               </a>
-              <a href="https://docs.google.com/document/d/1CTYqEzdmbgkry3Y2jmOsy2FFN2PWWQg7e_4MU_cWY84/edit?usp=sharing">
-                <button>Resume</button>
-              </a>
             </div>
           </div>
         </div>
