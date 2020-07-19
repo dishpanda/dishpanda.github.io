@@ -7,11 +7,11 @@ function App() {
   return (
     <div className="page">
       <div className="flex-container">
-        <div className="left">
+        <div className="one">
           <Container>
-            <div className="left-body">
+            <div className="one-body">
               <h3 className="text-uppercase">Hello, I'm</h3>
-              <div class="glitch" data-text="Rahul.">
+              <div className="glitch" data-text="Rahul.">
                 Rahul.
               </div>
               <p>
@@ -40,10 +40,47 @@ function App() {
             </div>
           </Container>
         </div>
-        <div className="right">
-          <div class="image">
-            <img class="object-fit_cover" alt="rahul" src="rahul.jpeg" />
+        <div className="two">
+          <div className="image">
+            <img className="object-fit_cover" alt="rahul" src="rahul.jpeg" />
           </div>
+        </div>
+        <div className="three">
+          <div className="three-bg"></div>
+          <Container className="">
+            <h1 className="mt-5 display-1">Work</h1>
+            <ol>
+              <li>
+                <h4>Cal High Robotics</h4>
+                <small className="text text-uppercase">2020-present</small>
+                <ul>
+                  <li>
+                    Team Captain, <em>2016-2020</em>
+                  </li>
+                  <li>
+                    Vice President <em>2018-2019</em>
+                  </li>
+                  <li>
+                    President <em>2019-2020</em>
+                  </li>
+                  <li>
+                    Head Mentor <em>2020-Present</em>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h4>Tutor/TA, Ace Academy</h4>{" "}
+                <small className="text text-uppercase">summer 2019</small>
+              </li>
+              <li>
+                <h4>Dev Intern, Fiveable</h4>
+                <small className="text text-uppercase">summer 2019</small>
+              </li>
+            </ol>
+          </Container>
+        </div>
+        <div className="four">
+          <Container></Container>
         </div>
       </div>
     </div>
