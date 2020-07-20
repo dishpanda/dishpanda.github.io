@@ -15,8 +15,8 @@ function App() {
                 Rahul.
               </div>
               <p>
-                I'll be a freshman at{" "}
-                <strong>Georgia Institute of Technology</strong> this fall,
+                I'll be a freshman at the{" "}
+                <strong><a style={{color: "white"}} href="https://www.gatech.edu/">Georgia Institute of Technology</a></strong> this fall,
                 majoring in Computer Science.
               </p>
               <p>
@@ -45,7 +45,7 @@ function App() {
             <img className="object-fit_cover" alt="rahul" src="rahul.jpeg" />
           </div>
         </div>
-        <div className="three">
+        {/* <div className="three">
           <div className="three-bg"></div>
           <Container className="">
             <h1 className="mt-5 display-1">Work</h1>
@@ -81,7 +81,7 @@ function App() {
         </div>
         <div className="four">
           <Container></Container>
-        </div>
+        </div> */}
       </div>
     </div>
   );
