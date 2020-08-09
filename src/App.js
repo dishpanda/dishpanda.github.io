@@ -41,17 +41,14 @@ function App() {
               </strong>
               <footer>
                 <a href="mailto:rahuldeshpande@gatech.edu">
-                  {" "}
-                  <GoMailRead />{" "}
-                </a>
+                  <GoMailRead />
+                </a>{" "}
                 <a href="https://instagram.com/itsrahuldeshpande">
-                  {" "}
-                  <GrInstagram />{" "}
-                </a>
+                  <GrInstagram />
+                </a>{" "}
                 <a href="https://github.com/dishpanda">
-                  {" "}
-                  <GrGithub />{" "}
-                </a>
+                  <GrGithub />
+                </a>{" "}
               </footer>
             </div>
           </Container>
