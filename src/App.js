@@ -3,6 +3,9 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
 
+import { GrInstagram, GrGithub } from "react-icons/gr";
+import { GoMailRead } from "react-icons/go";
+
 function App() {
   return (
     <div className="page">
@@ -16,8 +19,12 @@ function App() {
               </div>
               <p>
                 I'll be a freshman at the{" "}
-                <strong><a style={{color: "white"}} href="https://www.gatech.edu/">Georgia Institute of Technology</a></strong> this fall,
-                majoring in Computer Science.
+                <strong>
+                  <a style={{ color: "white" }} href="https://www.gatech.edu/">
+                    Georgia Institute of Technology
+                  </a>
+                </strong>{" "}
+                this fall, majoring in Computer Science.
               </p>
               <p>
                 I’m fascinated by mathematics, computer science, robotics, and
@@ -33,9 +40,18 @@ function App() {
                 <em>scroll &raquo;</em>
               </strong>
               <footer>
-                <a href="mailto:rahulsachindeshpande@gmail.com"> email </a>
-                <a href="https://instagram.com/itsrahuldeshpande"> insta </a>
-                <a href="https://github.com/dishpanda"> github </a>
+                <a href="mailto:rahuldeshpande@gatech.edu">
+                  {" "}
+                  <GoMailRead />{" "}
+                </a>
+                <a href="https://instagram.com/itsrahuldeshpande">
+                  {" "}
+                  <GrInstagram />{" "}
+                </a>
+                <a href="https://github.com/dishpanda">
+                  {" "}
+                  <GrGithub />{" "}
+                </a>
               </footer>
             </div>
           </Container>
