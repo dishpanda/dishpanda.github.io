@@ -18,7 +18,7 @@ function App() {
                 Rahul.
               </div>
               <p>
-                I'll be a freshman at the{" "}
+                I am a first year student at the{" "}
                 <strong>
                   <a style={{ color: "white" }} href="https://www.gatech.edu/">
                     Georgia Institute of Technology
