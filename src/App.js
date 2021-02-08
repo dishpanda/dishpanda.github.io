@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap";
 
 import { GrInstagram, GrGithub, GrDocument } from "react-icons/gr";
 import { GoMailRead } from "react-icons/go";
-import Resume from './resume.pdf';
+import Resume from "./resume.pdf";
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
                   <a style={{ color: "white" }} href="https://www.gatech.edu/">
                     Georgia Institute of Technology
                   </a>
-                </strong>{" "}
+                </strong>
                 , majoring in Computer Science.
               </p>
               <p>
@@ -50,7 +50,13 @@ function App() {
                 <a href="https://github.com/dishpanda">
                   <GrGithub />
                 </a>{" "}
-                <a style={{ color: "blue" }} href={Resume} without rel="noopener noreferrer" target='_blank'>
+                <a
+                  style={{ color: "blue" }}
+                  href={Resume}
+                  without
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   <GrDocument />
                 </a>{" "}
               </footer>
