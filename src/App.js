@@ -3,8 +3,9 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
 
-import { GrInstagram, GrGithub } from "react-icons/gr";
+import { GrInstagram, GrGithub, GrDocument } from "react-icons/gr";
 import { GoMailRead } from "react-icons/go";
+import Resume from './resume.pdf';
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
                     Georgia Institute of Technology
                   </a>
                 </strong>{" "}
-                this fall, majoring in Computer Science.
+                , majoring in Computer Science.
               </p>
               <p>
                 I’m fascinated by mathematics, computer science, robotics, and
@@ -48,6 +49,9 @@ function App() {
                 </a>{" "}
                 <a href="https://github.com/dishpanda">
                   <GrGithub />
+                </a>{" "}
+                <a style={{ color: "blue" }} href={Resume} without rel="noopener noreferrer" target='_blank'>
+                  <GrDocument />
                 </a>{" "}
               </footer>
             </div>
