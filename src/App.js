@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap";
 
 import { GrInstagram, GrGithub, GrDocument } from "react-icons/gr";
 import { GoMailRead } from "react-icons/go";
-import Resume from "./resume.pdf";
+import Resume from "./rahul_deshpande_resume.pdf";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
                 Rahul.
               </div>
               <p>
-                I am a first year student at the{" "}
+                I am a rising second year student at the{" "}
                 <strong>
                   <a style={{ color: "white" }} href="https://www.gatech.edu/">
                     Georgia Institute of Technology
