@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2d313b65c3348aeb3b8f872be92f6345",
+    "revision": "20bdd5c4876b8b703991f24164250795",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "bfc74c14e632af8078b3",
+    "revision": "1b74b2c33938e0ff1f13",
     "url": "/static/css/main.8f430a34.chunk.css"
   },
   {
@@ -20,15 +20,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.60554fb9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bfc74c14e632af8078b3",
-    "url": "/static/js/main.dd979607.chunk.js"
+    "revision": "1b74b2c33938e0ff1f13",
+    "url": "/static/js/main.c8962fe1.chunk.js"
   },
   {
     "revision": "77ca215a6c92fb2d61f5",
     "url": "/static/js/runtime-main.86e4cacc.js"
   },
   {
-    "revision": "3ebe0e258d774081ddfbbdece13f8afa",
-    "url": "/static/media/resume.3ebe0e25.pdf"
+    "revision": "b1fc4d7ffcf67a760ad5da066d8d37c4",
+    "url": "/static/media/rahul_deshpande_resume.b1fc4d7f.pdf"
   }
 ]);
