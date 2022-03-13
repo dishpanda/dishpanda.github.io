@@ -29,6 +29,14 @@
   height: 100vh;
 }
 
+.four {
+  flex: 0 0 50vw;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+}
+
 .three-bg {
   position: absolute;
   z-index: -1;
