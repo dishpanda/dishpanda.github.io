@@ -101,6 +101,8 @@ function App() {
           <a href="https://twitter.com/rsdesh47/">twitter</a>
           {" • "}
           <a href="https://www.linkedin.com/in/rsdeshpa/">linkedin</a>
+          {" • "}
+          <a href="mailto:rahuldeshpande@gatech.edu">email</a>
         </div>
       </div>
     </div>
