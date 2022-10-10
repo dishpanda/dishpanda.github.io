@@ -1,239 +1,168 @@
-.flex-container {
+body {
+  min-height: 99vh;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+hr {
+  border-top-width: 2px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+}
+
+.footer {
+  margin: 0 1em;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  flex-wrap: nowrap;
-  overflow: scroll;
-}
-
-.page {
-  height: 100%;
-  background-color: black;
-}
-
-.one {
-  width: 100%;
-}
-
-.two {
-  z-index: 5;
-}
-
-.three {
-  flex: 0 0 50vw;
-  background-repeat: no-repeat;
-  position: relative;
-  z-index: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100vh;
 }
 
-.four {
-  flex: 0 0 50vw;
-  background-repeat: no-repeat;
-  position: relative;
-  z-index: 1;
-  height: 100vh;
+.wrapper.green {
+  background-color: #172713;
+  color: #fefadc;
 }
 
-.three-bg {
-  position: absolute;
-  z-index: -1;
-  background: url("/computer.svg") top left;
-  opacity: 0.4;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+.wrapper.green a {
+  color: #fefadc;
 }
 
-@media only screen and (max-width: 600px) {
-  .three {
-    flex: 0 0 95vw;
-  }
-  .three-bg {
-    position: absolute;
-    z-index: -1;
-    background: url("/computer.svg") bottom center;
-    opacity: 0.4;
+.wrapper.green hr {
+  border-color: #fefadc;
+}
+
+.wrapper.white {
+  background-color: #fff;
+  color: #000;
+}
+
+.wrapper.white a {
+  color: #000;
+}
+
+.wrapper.white hr {
+  border-color: #000;
+}
+
+.wrapper.blue {
+  background-color: #003057;
+  color: #b3a369;
+}
+
+.wrapper.blue a {
+  color: #b3a369;
+}
+
+.wrapper.blue hr {
+  border-color: #b3a369;
+}
+
+.wrapper.yellow {
+  background-color: #ffb852;
+  color: #1b3644;
+}
+
+.wrapper.yellow a {
+  color: #1b3644;
+}
+
+.wrapper.yellow hr {
+  border-color: #1b3644;
+}
+
+.wrapper.pink {
+  background-color: #d94d99;
+  color: #ffffff;
+}
+
+.wrapper.pink a {
+  color: #ffffff;
+}
+
+.wrapper.pink hr {
+  border-color: #ffffff;
+}
+
+a {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.content {
+  padding-top: 10em;
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .content {
     width: 100%;
-    height: 100%;
-    overflow: hidden;
   }
 }
 
-.image {
-  height: 100%;
+.content .info {
+  margin: 1em;
 }
 
-.object-fit_cover {
-  object-fit: cover;
-}
-
-img {
-  height: 100vh;
-  width: 100vw;
-}
-
-.glitch {
-  color: white;
-  font-size: 100px;
-  position: relative;
-  width: 400px;
-}
-
-@keyframes noise-anim {
-  0% {
-    clip: rect(76px, 9999px, 45px, 0);
-  }
-  5% {
-    clip: rect(57px, 9999px, 12px, 0);
-  }
-  10% {
-    clip: rect(80px, 9999px, 11px, 0);
-  }
-  15% {
-    clip: rect(37px, 9999px, 55px, 0);
-  }
-  20% {
-    clip: rect(92px, 9999px, 79px, 0);
-  }
-  25% {
-    clip: rect(67px, 9999px, 94px, 0);
-  }
-  30% {
-    clip: rect(5px, 9999px, 3px, 0);
-  }
-  35% {
-    clip: rect(12px, 9999px, 97px, 0);
-  }
-  40% {
-    clip: rect(20px, 9999px, 73px, 0);
-  }
-  45% {
-    clip: rect(50px, 9999px, 37px, 0);
-  }
-  50% {
-    clip: rect(67px, 9999px, 59px, 0);
-  }
-  55% {
-    clip: rect(12px, 9999px, 3px, 0);
-  }
-  60% {
-    clip: rect(83px, 9999px, 60px, 0);
-  }
-  65% {
-    clip: rect(58px, 9999px, 33px, 0);
-  }
-  70% {
-    clip: rect(39px, 9999px, 94px, 0);
-  }
-  75% {
-    clip: rect(61px, 9999px, 9px, 0);
-  }
-  80% {
-    clip: rect(78px, 9999px, 66px, 0);
-  }
-  85% {
-    clip: rect(48px, 9999px, 77px, 0);
-  }
-  90% {
-    clip: rect(46px, 9999px, 87px, 0);
-  }
-  95% {
-    clip: rect(30px, 9999px, 38px, 0);
-  }
-  100% {
-    clip: rect(46px, 9999px, 94px, 0);
-  }
-}
-.glitch:after {
-  content: attr(data-text);
+h1 {
+  font-size: 70px;
+  font-weight: 900;
+  text-transform: uppercase;
   position: absolute;
-  left: 2px;
-  text-shadow: -1px 0 red;
-  top: 0;
-  color: white;
-  overflow: hidden;
-  clip: rect(0, 900px, 0, 0);
-  animation: noise-anim 2s infinite linear alternate-reverse;
+  margin-left: -1.25em;
+  margin-top: -2.4em;
 }
 
-@keyframes noise-anim-2 {
-  0% {
-    clip: rect(78px, 9999px, 43px, 0);
-  }
-  5% {
-    clip: rect(49px, 9999px, 5px, 0);
-  }
-  10% {
-    clip: rect(23px, 9999px, 61px, 0);
-  }
-  15% {
-    clip: rect(61px, 9999px, 46px, 0);
-  }
-  20% {
-    clip: rect(82px, 9999px, 21px, 0);
-  }
-  25% {
-    clip: rect(42px, 9999px, 57px, 0);
-  }
-  30% {
-    clip: rect(21px, 9999px, 49px, 0);
-  }
-  35% {
-    clip: rect(51px, 9999px, 42px, 0);
-  }
-  40% {
-    clip: rect(30px, 9999px, 44px, 0);
-  }
-  45% {
-    clip: rect(57px, 9999px, 80px, 0);
-  }
-  50% {
-    clip: rect(1px, 9999px, 49px, 0);
-  }
-  55% {
-    clip: rect(58px, 9999px, 3px, 0);
-  }
-  60% {
-    clip: rect(45px, 9999px, 59px, 0);
-  }
-  65% {
-    clip: rect(36px, 9999px, 34px, 0);
-  }
-  70% {
-    clip: rect(5px, 9999px, 84px, 0);
-  }
-  75% {
-    clip: rect(32px, 9999px, 51px, 0);
-  }
-  80% {
-    clip: rect(46px, 9999px, 89px, 0);
-  }
-  85% {
-    clip: rect(12px, 9999px, 100px, 0);
-  }
-  90% {
-    clip: rect(8px, 9999px, 54px, 0);
-  }
-  95% {
-    clip: rect(17px, 9999px, 36px, 0);
-  }
-  100% {
-    clip: rect(55px, 9999px, 88px, 0);
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+    margin-left: 1em;
+    margin-top: -3.5em;
   }
 }
 
-.glitch:before {
-  content: attr(data-text);
+h1 span {
   position: absolute;
-  left: -2px;
-  text-shadow: 1px 0 blue;
-  top: 0;
-  color: white;
-  overflow: hidden;
-  clip: rect(0, 900px, 0, 0);
-  animation: noise-anim-2 3s infinite linear alternate-reverse;
 }
+
+h1 span:nth-child(odd) {
+  -webkit-transform: skew(60deg, -30deg) scaleY(0.66667);
+          transform: skew(60deg, -30deg) scaleY(0.66667);
+}
+
+h1 span:nth-child(even) {
+  -webkit-transform: skew(0deg, -30deg) scaleY(1.33333);
+          transform: skew(0deg, -30deg) scaleY(1.33333);
+}
+
+h1 span:nth-child(2) {
+  top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 span:nth-child(2) {
+    top: 20px;
+  }
+}
+
+h1 span:nth-child(3) {
+  left: 210px;
+  top: 35px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 span:nth-child(3) {
+    left: 110px;
+    top: 30px;
+  }
+}
+/*# sourceMappingURL=App.css.map */

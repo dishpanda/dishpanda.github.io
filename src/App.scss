@@ -1,0 +1,136 @@
+$small: 600px;
+
+body {
+  min-height: 99vh;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+hr {
+  border-top-width: 2px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+}
+
+.footer {
+  margin: 0 1em;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &.green {
+    background-color: #172713;
+    color: #fefadc;
+    a {
+      color: #fefadc;
+    }
+    hr {
+      border-color: #fefadc;
+    }
+  }
+  &.white {
+    background-color: #fff;
+    color: #000;
+    a {
+      color: #000;
+    }
+    hr {
+      border-color: #000;
+    }
+  }
+  &.blue {
+    background-color: #003057;
+    color: #b3a369;
+    a {
+      color: #b3a369;
+    }
+    hr {
+      border-color: #b3a369;
+    }
+  }
+  &.yellow {
+    background-color: #ffb852;
+    color: #1b3644;
+    a {
+      color: #1b3644;
+    }
+    hr {
+      border-color: #1b3644;
+    }
+  }
+  &.pink {
+    background-color: #d94d99;
+    color: #ffffff;
+    a {
+      color: #ffffff;
+    }
+    hr {
+      border-color: #ffffff;
+    }
+  }
+
+  height: 100vh;
+}
+
+a {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.content {
+  padding-top: 10em;
+  width: 50%;
+
+  @media screen and (max-width: $small) {
+    width: 100%;
+  }
+
+  margin: 0 auto;
+
+  .info {
+    margin: 1em;
+  }
+}
+
+h1 {
+  font-size: 70px;
+  @media screen and (max-width: $small) {
+    font-size: 40px;
+
+    margin-left: 1em;
+    margin-top: -3.5em;
+  }
+
+  font-weight: 900;
+  text-transform: uppercase;
+  position: absolute;
+  margin-left: -1.25em;
+  margin-top: -2.4em;
+
+  span {
+    position: absolute;
+
+    &:nth-child(odd) {
+      transform: skew(60deg, -30deg) scaleY(0.66667);
+    }
+    &:nth-child(even) {
+      transform: skew(0deg, -30deg) scaleY(1.33333);
+    }
+    &:nth-child(2) {
+      top: 30px;
+      @media screen and (max-width: $small) {
+        top: 20px;
+      }
+    }
+    &:nth-child(3) {
+      left: 210px;
+      top: 35px;
+      @media screen and (max-width: $small) {
+        left: 110px;
+        top: 30px;
+      }
+    }
+  }
+}
