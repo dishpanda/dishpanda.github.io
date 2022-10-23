@@ -1,20 +1,30 @@
 import React from "react";
-import ImgsViewer from "react-images-viewer";
+import { portfolioData } from "./portfolioData";
+import PortfolioItem from "./PortfolioItem";
 
-export default class Demo extends React.Component {
-  render() {
-    return (
-      <ImgsViewer
-        imgs={[
-          { src: "https://source.unsplash.com/random" },
-          { src: "https://source.unsplash.com/random" },
-        ]}
-        currImg={this.state.currImg}
-        isOpen={this.state.viewerIsOpen}
-        onClickPrev={this.gotoPrevious}
-        onClickNext={this.gotoNext}
-        onClose={this.closeViewer}
-      />
-    );
-  }
-}
+const Portfolio = () => {
+  return (
+    <div className="info">
+      <p>This is a collection of some of the things I've made.</p>
+      <p>
+        You can find a list of the articles I've written for the Technique{" "}
+        <a href="https://nique.net/author/rahul/">here</a>.
+      </p>
+      <p>
+        Below are some of the graphics and visualizations I've created to
+        support articles written by others:
+      </p>
+      <div className="portfolio-items">
+        {portfolioData.map((item) => (
+          <PortfolioItem item={item} />
+        ))}
+      </div>
+      {/* <p>
+        And finally, here are some of the projects I've made for school as well
+        as my freelance work.
+      </p> */}
+    </div>
+  );
+};
+
+export default Portfolio;

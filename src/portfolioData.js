@@ -1,0 +1,58 @@
+export const portfolioData = [
+  {
+    title: "Vote by Mail Flowchart",
+    image: require("./img/News_VoteByMail_RahulDeshpande_BW.jpg"),
+    description: "",
+    url: "https://nique.net/sports/2022/09/26/collins-stansbury-relieved-of-duties/",
+    date: "October 14, 2022",
+  },
+  {
+    title: "Rankings",
+    image: require("./img/News_Rankings_RahulDeshpande_Color.png"),
+    description: "",
+    url: "https://nique.net/news/2022/10/10/president-cabrera-reflects-on-institute-rankings/",
+    date: "October 7, 2022",
+  },
+  {
+    title: "Collins Dismissal",
+    image: require("./img/Sports_CollinsTenureGraphic_RahulDeshpande_Color-corrected.png"),
+    description: "",
+    url: "https://nique.net/sports/2022/09/26/collins-stansbury-relieved-of-duties/",
+    date: "September 30, 2022",
+  },
+  {
+    title: "Economic Impact",
+    image: require("./img/News_EconomicImpact_RahulDeshpande_Color.png"),
+    description: "",
+    url: "https://nique.net/news/2022/08/16/techs-state-wide-economic-impact-grows/",
+    date: "August 16, 2022",
+  },
+  {
+    title: "COVID-19 Flowchart",
+    image: require("./img/News_COVID19Guidelines_RahulDeshpande_Color.png"),
+    description: "",
+    url: "https://nique.net/life/2022/06/06/tech-dining-faces-end-of-the-year-feeding-frenzy/",
+    date: "August 16, 2022",
+  },
+  {
+    title: "Dining",
+    image: require("./img/Life_DiningDollars_Rahul-Deshpande_Color.png"),
+    description: "",
+    url: "https://nique.net/life/2022/06/06/tech-dining-faces-end-of-the-year-feeding-frenzy/",
+    date: "June 6, 2022",
+  },
+  {
+    title: "Admissions",
+    image: require("./img/News_Admissions_Rahul-Deshpande_BW.png"),
+    description: "",
+    url: "https://nique.net/news/2022/04/10/institutes-newest-admission-stats/",
+    date: "April 8, 2022",
+  },
+  {
+    title: "Building Names",
+    image: require("./img/News_BuildingNames_Rahul-Deshpande_BW.png"),
+    description: "",
+    url: "https://nique.net/news/2022/04/02/technique-analysis-finds-only-five-out-of-82-buildings-and-facilities-on-campus-named-after-women/",
+    date: "April 1, 2022",
+  },
+];

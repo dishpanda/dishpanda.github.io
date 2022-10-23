@@ -1,5 +1,9 @@
+#root {
+  height: 100%;
+}
+
 body {
-  min-height: 99vh;
+  min-height: 100vh;
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -15,6 +19,7 @@ hr {
 }
 
 .wrapper {
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,7 +29,10 @@ hr {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 100vh;
+}
+
+.wrapper.portfolio {
+  padding: 20vh 0 10vh 0;
 }
 
 .wrapper.green {
@@ -110,6 +118,7 @@ a {
 }
 
 .content .info {
+  min-height: 420px;
   margin: 1em;
 }
 
@@ -164,5 +173,26 @@ h1 span:nth-child(3) {
     left: 110px;
     top: 30px;
   }
+}
+
+.portfolio-items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: ()[3];
+      grid-template-rows: repeat(3);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .portfolio-items {
+    display: block;
+  }
+}
+
+.portfolio-items .portfolio-item .portfolio-img {
+  width: 100%;
 }
 /*# sourceMappingURL=App.css.map */
