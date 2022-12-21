@@ -33,11 +33,6 @@ export default (props) => {
             </a>
           </li>
           <li>
-            <a href="https://gatech.campuslabs.com/engage/organization/college-democrats">
-              College Democrats — President
-            </a>
-          </li>
-          <li>
             <a href="https://https://www.astronomyclub.gatech.edu/">
               Astronomy Club — Webmaster
             </a>
