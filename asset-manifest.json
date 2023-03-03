@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.e866a991.chunk.css",
-    "main.js": "/static/js/main.260ae266.chunk.js",
-    "main.js.map": "/static/js/main.260ae266.chunk.js.map",
+    "main.js": "/static/js/main.91e9c6be.chunk.js",
+    "main.js.map": "/static/js/main.91e9c6be.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c3af2e16.js",
     "runtime-main.js.map": "/static/js/runtime-main.c3af2e16.js.map",
-    "static/js/2.ffe8a667.chunk.js": "/static/js/2.ffe8a667.chunk.js",
-    "static/js/2.ffe8a667.chunk.js.map": "/static/js/2.ffe8a667.chunk.js.map",
+    "static/js/2.45004d5d.chunk.js": "/static/js/2.45004d5d.chunk.js",
+    "static/js/2.45004d5d.chunk.js.map": "/static/js/2.45004d5d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.aec4b616579ecdf541761a807d3570bd.js": "/precache-manifest.aec4b616579ecdf541761a807d3570bd.js",
+    "precache-manifest.e60fbd8be67b61ef0b30753b74e70269.js": "/precache-manifest.e60fbd8be67b61ef0b30753b74e70269.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.e866a991.chunk.css.map": "/static/css/main.e866a991.chunk.css.map",
-    "static/js/2.ffe8a667.chunk.js.LICENSE.txt": "/static/js/2.ffe8a667.chunk.js.LICENSE.txt",
+    "static/js/2.45004d5d.chunk.js.LICENSE.txt": "/static/js/2.45004d5d.chunk.js.LICENSE.txt",
     "static/media/Life_DiningDollars_Rahul-Deshpande_Color.png": "/static/media/Life_DiningDollars_Rahul-Deshpande_Color.28e75af9.png",
     "static/media/News_Admissions_Rahul-Deshpande_BW.png": "/static/media/News_Admissions_Rahul-Deshpande_BW.84b1661e.png",
     "static/media/News_BuildingNames_Rahul-Deshpande_BW.png": "/static/media/News_BuildingNames_Rahul-Deshpande_BW.223da6f5.png",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c3af2e16.js",
-    "static/js/2.ffe8a667.chunk.js",
+    "static/js/2.45004d5d.chunk.js",
     "static/css/main.e866a991.chunk.css",
-    "static/js/main.260ae266.chunk.js"
+    "static/js/main.91e9c6be.chunk.js"
   ]
 }
