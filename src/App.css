@@ -1,10 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
 #root {
   height: 100%;
 }
 
 body {
   min-height: 100vh;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 hr {
@@ -20,106 +21,96 @@ hr {
 
 .wrapper {
   min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
 .wrapper.portfolio {
   padding: 20vh 0 10vh 0;
 }
-
 .wrapper.green {
   background-color: #172713;
   color: #fefadc;
 }
-
 .wrapper.green a {
   color: #fefadc;
 }
-
 .wrapper.green hr {
   border-color: #fefadc;
 }
-
+.wrapper.green #logo {
+  filter: invert(87%) sepia(20%) saturate(488%) hue-rotate(329deg) brightness(113%) contrast(103%);
+}
 .wrapper.white {
   background-color: #fff;
   color: #000;
 }
-
 .wrapper.white a {
   color: #000;
 }
-
 .wrapper.white hr {
   border-color: #000;
 }
-
 .wrapper.blue {
   background-color: #003057;
   color: #b3a369;
 }
-
 .wrapper.blue a {
   color: #b3a369;
 }
-
 .wrapper.blue hr {
   border-color: #b3a369;
 }
-
+.wrapper.blue #logo {
+  filter: invert(75%) sepia(18%) saturate(759%) hue-rotate(10deg) brightness(84%) contrast(91%);
+}
 .wrapper.yellow {
   background-color: #ffb852;
   color: #1b3644;
 }
-
 .wrapper.yellow a {
   color: #1b3644;
 }
-
 .wrapper.yellow hr {
   border-color: #1b3644;
 }
-
+.wrapper.yellow #logo {
+  filter: invert(16%) sepia(69%) saturate(347%) hue-rotate(156deg) brightness(99%) contrast(97%);
+}
 .wrapper.pink {
   background-color: #d94d99;
-  color: #ffffff;
+  color: #fff;
 }
-
 .wrapper.pink a {
-  color: #ffffff;
+  color: #fff;
 }
-
 .wrapper.pink hr {
-  border-color: #ffffff;
+  border-color: #fff;
 }
-
-a {
-  text-decoration: underline;
-  font-weight: bolder;
+.wrapper.pink #logo {
+  filter: invert(100%) sepia(73%) saturate(212%) hue-rotate(236deg) brightness(106%) contrast(101%);
 }
 
 .content {
-  padding-top: 10em;
+  padding: 2rem 1rem;
   width: 50%;
-  margin: 0 auto;
+  min-height: 100vh;
 }
-
 @media screen and (max-width: 600px) {
   .content {
     width: 100%;
   }
 }
-
 .content .info {
-  min-height: 420px;
-  margin: 1em;
+  padding: 0 1rem;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 1.2rem;
+}
+
+a {
+  text-decoration: underline;
+  font-weight: bolder;
 }
 
 h1 {
@@ -130,7 +121,6 @@ h1 {
   margin-left: -1.25em;
   margin-top: -2.4em;
 }
-
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 40px;
@@ -138,36 +128,27 @@ h1 {
     margin-top: -3.5em;
   }
 }
-
 h1 span {
   position: absolute;
 }
-
 h1 span:nth-child(odd) {
-  -webkit-transform: skew(60deg, -30deg) scaleY(0.66667);
-          transform: skew(60deg, -30deg) scaleY(0.66667);
+  transform: skew(60deg, -30deg) scaleY(0.66667);
 }
-
 h1 span:nth-child(even) {
-  -webkit-transform: skew(0deg, -30deg) scaleY(1.33333);
-          transform: skew(0deg, -30deg) scaleY(1.33333);
+  transform: skew(0deg, -30deg) scaleY(1.33333);
 }
-
 h1 span:nth-child(2) {
   top: 30px;
 }
-
 @media screen and (max-width: 600px) {
   h1 span:nth-child(2) {
     top: 20px;
   }
 }
-
 h1 span:nth-child(3) {
   left: 210px;
   top: 35px;
 }
-
 @media screen and (max-width: 600px) {
   h1 span:nth-child(3) {
     left: 110px;
@@ -175,24 +156,36 @@ h1 span:nth-child(3) {
   }
 }
 
+.portfolio-item {
+  padding: 0.2em 1em;
+}
+.portfolio-item.current {
+  -webkit-backdrop-filter: brightness(90%);
+          backdrop-filter: brightness(90%);
+  border-radius: 10px;
+}
+
 .portfolio-items {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  -ms-grid-rows: ()[3];
-      grid-template-rows: repeat(3);
+  grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
-
 @media screen and (max-width: 800px) {
   .portfolio-items {
     display: block;
   }
 }
-
+.portfolio-items .portfolio-item {
+  padding: 0.5em 1em;
+}
 .portfolio-items .portfolio-item .portfolio-img {
   width: 100%;
 }
-/*# sourceMappingURL=App.css.map */
+.portfolio-items .portfolio-item p {
+  margin-top: 0;
+  margin-bottom: 0.4em;
+}
+.portfolio-items .portfolio-item ul {
+  padding-inline-start: 15px;
+}/*# sourceMappingURL=App.css.map */

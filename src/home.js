@@ -1,58 +1,54 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { portfolioData, positionsData, employmentData } from "./portfolioData";
+import PortfolioItem from "./PortfolioItem";
+import ResumeItem from "./ResumeItem";
 
 export default (props) => {
   return (
     <>
       <div className="info">
-        <p>Hey! I'm Rahul.</p>
         <p>
-          I am a graduating third year undergraduate student at the{" "}
+          Hey there! I'm Rahul, and I'm a current Computer Science Master's
+          student at{" "}
           <strong>
-            <a href="https://www.gatech.edu/">
-              Georgia Institute of Technology
-            </a>
+            <a href="https://www.gatech.edu/">Georgia Tech</a>
           </strong>
-          , majoring in Computer Science.
+          , with specialization in Visual Analytics. I also got my BS in CS from
+          Georgia Tech in May 2023, with thread picks of Intelligence and
+          Modeling and Simulation.
         </p>
         <p>
           I'm fascinated by computer science, journalism, data analytics, and
           what lies at their intersection. I'm passionate about digital civics,
           the environment, and the future of the internet.
         </p>
+        <h2>Current and Past Employment</h2>
+        {employmentData.map((item) => (
+          <ResumeItem item={item} key={item.place} />
+        ))}
+        <h2>Current and Past Involvements</h2>
+        <div className="portfolio-items">
+          {positionsData.map((item) => (
+            <ResumeItem item={item} key={item.place} />
+          ))}
+        </div>
+        <h2>Past Work</h2>
+        <div className="portfolio-items">
+          {portfolioData.map((item) => (
+            <PortfolioItem item={item} key={item.title} />
+          ))}
+        </div>
+        <h2>Education</h2>
         <p>
-          When I'm not using a computer, I like to write poetry, learn foreign
-          languages, shoot photos on film, and play the Indian classical flute
-          (the bansuri). Don't hesitate to get in touch :)
+          <strong>M.S. Computer Science</strong> Visual Analytics
+          <br />
+          <small>Georgia Tech | Aug 2023 - Proj. May 2024</small>
         </p>
-        <p>Some of my involvements:</p>
-        <ul id="nav">
-          <li>
-            <a href="https://nique.net/author/rahul/">
-              Technique Newspaper — Technology Editor
-            </a>
-          </li>
-          <li>
-            <a href="https://https://www.astronomyclub.gatech.edu/">
-              Astronomy Club — Webmaster
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/gtwrecktechs/">OIT Wreck Tech</a>
-          </li>
-          <li>
-            <a href="https://www.cc.gatech.edu/mentoring-program#:~:text=Peer%20mentors%20are%20paired%20together,week%20during%20the%20fall%20semester.">
-              CoC CS 1100 Peer Mentor
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/aajaatlanta">
-              AAJA ATL — Student Coordinator
-            </a>
-          </li>
-        </ul>
         <p>
-          See my work <Link to="portfolio">here</Link>.
+          <strong>B.S. Computer Science</strong> Intelligence and Modeling &
+          Simulation
+          <br />
+          <small>Georgia Tech | Aug 2020 - May 2023</small>
         </p>
       </div>
     </>
