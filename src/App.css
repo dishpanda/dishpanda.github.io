@@ -39,7 +39,8 @@ hr {
   border-color: #fefadc;
 }
 .wrapper.green #logo {
-  filter: invert(87%) sepia(20%) saturate(488%) hue-rotate(329deg) brightness(113%) contrast(103%);
+  filter: invert(87%) sepia(20%) saturate(488%) hue-rotate(329deg)
+    brightness(113%) contrast(103%);
 }
 .wrapper.white {
   background-color: #fff;
@@ -62,7 +63,8 @@ hr {
   border-color: #b3a369;
 }
 .wrapper.blue #logo {
-  filter: invert(75%) sepia(18%) saturate(759%) hue-rotate(10deg) brightness(84%) contrast(91%);
+  filter: invert(75%) sepia(18%) saturate(759%) hue-rotate(10deg)
+    brightness(84%) contrast(91%);
 }
 .wrapper.yellow {
   background-color: #ffb852;
@@ -75,7 +77,8 @@ hr {
   border-color: #1b3644;
 }
 .wrapper.yellow #logo {
-  filter: invert(16%) sepia(69%) saturate(347%) hue-rotate(156deg) brightness(99%) contrast(97%);
+  filter: invert(16%) sepia(69%) saturate(347%) hue-rotate(156deg)
+    brightness(99%) contrast(97%);
 }
 .wrapper.pink {
   background-color: #d94d99;
@@ -88,7 +91,8 @@ hr {
   border-color: #fff;
 }
 .wrapper.pink #logo {
-  filter: invert(100%) sepia(73%) saturate(212%) hue-rotate(236deg) brightness(106%) contrast(101%);
+  filter: invert(100%) sepia(73%) saturate(212%) hue-rotate(236deg)
+    brightness(106%) contrast(101%);
 }
 
 .content {
@@ -156,12 +160,10 @@ h1 span:nth-child(3) {
   }
 }
 
-.portfolio-item {
+.current {
   padding: 0.2em 1em;
-}
-.portfolio-item.current {
   -webkit-backdrop-filter: brightness(90%);
-          backdrop-filter: brightness(90%);
+  backdrop-filter: brightness(90%);
   border-radius: 10px;
 }
 
@@ -171,7 +173,7 @@ h1 span:nth-child(3) {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   .portfolio-items {
     display: block;
   }
@@ -188,4 +190,4 @@ h1 span:nth-child(3) {
 }
 .portfolio-items .portfolio-item ul {
   padding-inline-start: 15px;
-}/*# sourceMappingURL=App.css.map */
+} /*# sourceMappingURL=App.css.map */

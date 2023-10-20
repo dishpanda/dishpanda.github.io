@@ -22,6 +22,13 @@ export default (props) => {
           what lies at their intersection. I'm passionate about digital civics,
           the environment, and the future of the internet.
         </p>
+        <p>
+          Check me out on the web (
+          <a href="https://twitter.com/rsdesh47">Twitter</a>,{" "}
+          <a href="https://github.com/dishpanda">GitHub</a>,{" "}
+          <a href="https://www.linkedin.com/in/rsdeshpa/">LinkedIn</a>) or reach
+          out to me via <a href="mailto:rahuldeshpande@gatech.edu">email</a>!
+        </p>
         <h2>Current and Past Employment</h2>
         {employmentData.map((item) => (
           <ResumeItem item={item} key={item.place} />
@@ -39,12 +46,12 @@ export default (props) => {
           ))}
         </div>
         <h2>Education</h2>
-        <p>
+        <p className="current">
           <strong>M.S. Computer Science</strong> Visual Analytics
           <br />
           <small>Georgia Tech | Aug 2023 - Proj. May 2024</small>
         </p>
-        <p>
+        <p style={{ padding: "0.2em 1em" }}>
           <strong>B.S. Computer Science</strong> Intelligence and Modeling &
           Simulation
           <br />
