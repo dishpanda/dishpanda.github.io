@@ -1,30 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.e866a991.chunk.css",
-    "main.js": "/static/js/main.c624c5cf.chunk.js",
-    "main.js.map": "/static/js/main.c624c5cf.chunk.js.map",
+    "main.css": "/static/css/main.28b90838.chunk.css",
+    "main.js": "/static/js/main.b3573e9c.chunk.js",
+    "main.js.map": "/static/js/main.b3573e9c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c3af2e16.js",
     "runtime-main.js.map": "/static/js/runtime-main.c3af2e16.js.map",
-    "static/js/2.45004d5d.chunk.js": "/static/js/2.45004d5d.chunk.js",
-    "static/js/2.45004d5d.chunk.js.map": "/static/js/2.45004d5d.chunk.js.map",
+    "static/js/2.95102693.chunk.js": "/static/js/2.95102693.chunk.js",
+    "static/js/2.95102693.chunk.js.map": "/static/js/2.95102693.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9b2f2bbc1ca2876a8616f1cfcebe4e4e.js": "/precache-manifest.9b2f2bbc1ca2876a8616f1cfcebe4e4e.js",
+    "precache-manifest.76400f73b9237f82cc0e45e9af54e3f6.js": "/precache-manifest.76400f73b9237f82cc0e45e9af54e3f6.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.e866a991.chunk.css.map": "/static/css/main.e866a991.chunk.css.map",
-    "static/js/2.45004d5d.chunk.js.LICENSE.txt": "/static/js/2.45004d5d.chunk.js.LICENSE.txt",
-    "static/media/Life_DiningDollars_Rahul-Deshpande_Color.png": "/static/media/Life_DiningDollars_Rahul-Deshpande_Color.28e75af9.png",
-    "static/media/News_Admissions_Rahul-Deshpande_BW.png": "/static/media/News_Admissions_Rahul-Deshpande_BW.84b1661e.png",
-    "static/media/News_BuildingNames_Rahul-Deshpande_BW.png": "/static/media/News_BuildingNames_Rahul-Deshpande_BW.223da6f5.png",
-    "static/media/News_COVID19Guidelines_RahulDeshpande_Color.png": "/static/media/News_COVID19Guidelines_RahulDeshpande_Color.2f82da23.png",
-    "static/media/News_EconomicImpact_RahulDeshpande_Color.png": "/static/media/News_EconomicImpact_RahulDeshpande_Color.39ac7ea2.png",
-    "static/media/News_Rankings_RahulDeshpande_Color.png": "/static/media/News_Rankings_RahulDeshpande_Color.90535c0a.png",
-    "static/media/News_VoteByMail_RahulDeshpande_BW.jpg": "/static/media/News_VoteByMail_RahulDeshpande_BW.d72fd49e.jpg",
-    "static/media/Sports_CollinsTenureGraphic_RahulDeshpande_Color-corrected.png": "/static/media/Sports_CollinsTenureGraphic_RahulDeshpande_Color-corrected.1404de68.png"
+    "static/css/main.28b90838.chunk.css.map": "/static/css/main.28b90838.chunk.css.map",
+    "static/js/2.95102693.chunk.js.LICENSE.txt": "/static/js/2.95102693.chunk.js.LICENSE.txt",
+    "static/media/rahuldeshpande.svg": "/static/media/rahuldeshpande.32c819bb.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c3af2e16.js",
-    "static/js/2.45004d5d.chunk.js",
-    "static/css/main.e866a991.chunk.css",
-    "static/js/main.c624c5cf.chunk.js"
+    "static/js/2.95102693.chunk.js",
+    "static/css/main.28b90838.chunk.css",
+    "static/js/main.b3573e9c.chunk.js"
   ]
 }
